@@ -88,6 +88,46 @@
       "isPrivate": false,
       "repo": null,
       "accessLost": false
+    },
+    {
+      "id": "flowstate",
+      "name": "Flowstate",
+      "summary": "Razer-Ger\u00E4te einstellen, ganz ohne Konto",
+      "description": "Ersetzt Razer Synapse: Mausprofile, Makros, Headset-Klang und die eigene Audio-Engine Flow Atmos.",
+      "status": "available",
+      "label": "Beta",
+      "notice": "Getestet mit Razer Viper Ultimate und BlackShark V2 Pro. Andere Ger\u00E4te werden noch nicht unterst\u00FCtzt. Die Audio-Engine richtet Flowstate auf Wunsch selbst ein, dann fragt Windows nach Administrator-Rechten.",
+      "rollbackWarning": "Einstellungen und Profile bleiben erhalten. Eine neuere Audio-Engine muss danach eventuell neu eingerichtet werden.",
+      "icon": "data:image/svg\u002Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii02MCAtNjAgMTIwIDEyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJGbG93c3RhdGUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJmcy1mbG93IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii01MiIgeTE9IjI0IiB4Mj0iNTIiIHkyPSItMjQiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwYjg4ZjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iIzFlYTlmZCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzN2M4ZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ\u002BCiAgPC9kZWZzPgogIDxnIGZpbGw9InVybCgjZnMtZmxvdykiPgogICAgPHBhdGggZD0iTS00MC0zNy41MDBDLTI3LTQ5LTEyLTU2IDMtNTUuNTAwIDIyLTU1IDM5LTQwIDM5LjUwMC0yMiAzOS43MDAtMTUgMzYuNTAwLTkuNTAwIDMyLjUwMC01IDMyLTE0IDI2LTI0IDE4LTMxLjUwMCA5LTM5LTMtNDQtMTUtNDQuNTAwLTI0LTQ0LjUwMC0zMy00MS41MDAtNDAtMzcuNTAwWiIvPgogICAgPHBhdGggZD0iTTQzLTM0QzUxLTI2IDU2LTEyIDU2LTEgNTYgMTMgNDcgMjYgMzMgMzEgMjIgMzUgMTAgMzAgMS43MDAgMjEuNzAwIDE0IDIzIDI3IDE4IDM2IDggNDQtMSA0Ny0xOSA0My0zNFoiLz4KICAgIDxwYXRoIGQ9Ik00MCAzNS4zMDBDMzAgNDcgMTcgNTQuNTAwIDQgNTQuNTAwLTEyIDU0LjUwMC0zMSAzOC0zMiAyMC0zMi41MDAgMTEtMjcgMS0xOS01LTE5LjUwMCA1LTE1IDE0LTkgMjEuNTAwLTMgMjkgOCAzOCAyMCA0MCAyOCA0MSAzNSAzOC41MDAgNDAgMzUuMzAwWiIvPgogICAgPHBhdGggZD0iTS44LTMyLjgwMEMtMTAtMzcuNTAwLTI1LTM3LTM3LTI5LTUwLTIwLTU2LTktNTUuNTAwIDMtNTUgMjAtNDQgMzgtMjcuNTAwIDQ4LjMwMC0zNiAzOC00MSAyOC00MCAxNi0zOSA0LTMxLTktMjMtMTctMTUtMjQuNTAwLTctMjkuNTAwLjgtMzIuODAwWiIvPgogIDwvZz4KPC9zdmc\u002BCg==",
+      "kind": "installer",
+      "launch": "%LOCALAPPDATA%\\Programs\\Flowstate\\Flowstate.exe",
+      "uninstall": {
+        "path": "{appdir}\\Flowstate.exe",
+        "args": "--uninstall"
+      },
+      "dataPath": "%APPDATA%\\SynX",
+      "requiresAdmin": false,
+      "releases": [
+        {
+          "version": "0.9.0",
+          "channel": "stable",
+          "date": "2026-11-04",
+          "notes": "Erste Version \u00FCber LeVerse: Mausprofile, Makros, Headset-Klang und die Audio-Engine Flow Atmos.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/flowstate-v0.9.0/Flowstate-0.9.0.zip",
+          "sha256": "d9a04cf06a68aa7a0bb5404c5eff71de65c0fca574979edc606d4c4d1d68706d",
+          "size": 54983947,
+          "installArgs": "--install --quiet"
+        }
+      ],
+      "launchFallbacks": [],
+      "setup": "Flowstate.exe",
+      "replacesRunning": true,
+      "extensionFolder": null,
+      "postInstall": null,
+      "preUninstall": null,
+      "isPrivate": false,
+      "repo": null,
+      "accessLost": false
     }
   ]
 }
