@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "launcher": {
+    "version": "0.2.0",
+    "date": "2026-11-04",
+    "notes": "Erste \u00F6ffentliche Version.",
+    "url": "https://github.com/LemeSrc/leverse-releases/releases/download/launcher-v0.2.0/LeVerse.exe",
+    "sha256": "7dac1c71f987abf8241484776aa9b456b989aa7e74f0888435adf50a68680b69",
+    "size": 2321408
+  },
+  "apps": []
+}
