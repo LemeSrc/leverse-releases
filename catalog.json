@@ -165,6 +165,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.4.1",
+          "channel": "stable",
+          "date": "2026-11-06",
+          "notes": "Kompaktiert ruhende Chats nur noch vor Ablauf des 1-Stunden-Caches, Chats mit 5-Minuten-Cache bleiben unber\u00FChrt.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.4.1/Echo-Setup-0.4.1.exe",
+          "sha256": "2ffdb93ceed785d15080ccdc0ae6b6e07c721b489d786ac6668c69dac4e7e1f5",
+          "size": 127759451,
+          "installArgs": "/S"
+        },
+        {
           "version": "0.4.0",
           "channel": "stable",
           "date": "2026-11-06",
