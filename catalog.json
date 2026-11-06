@@ -113,6 +113,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.9.1",
+          "channel": "stable",
+          "date": "2026-11-06",
+          "notes": "Der Installationsordner ist jetzt w\u00E4hlbar.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/flowstate-v0.9.1/Flowstate-0.9.1.zip",
+          "sha256": "03fd96dd918e46f22eddeb7d0028eba6c35c40da595f325dc80cd3b77608c5f3",
+          "size": 54983591,
+          "installArgs": "--install --quiet"
+        },
+        {
           "version": "0.9.0",
           "channel": "stable",
           "date": "2026-11-04",
