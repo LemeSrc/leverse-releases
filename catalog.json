@@ -144,6 +144,48 @@
       "isPrivate": false,
       "repo": null,
       "accessLost": false
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "summary": "Arbeitsplatz f\u00FCr Claude Code",
+      "description": "Echtes Terminal, Chats nach Projekten, Kontingent, Vorgaben und Regeln, die du freigibst. L\u00E4uft mit Claude Code und deinem eigenen Claude-Konto; Echo liest und speichert keine Zugangsdaten.",
+      "status": "available",
+      "label": "Beta",
+      "notice": "Echo braucht Claude Code auf diesem PC und dein eigenes Claude-Konto. In deine Claude-Einstellungen schreibt Echo nur eigene Abschnitte und legt vorher eine Sicherung an.",
+      "rollbackWarning": null,
+      "icon": null,
+      "kind": "installer",
+      "launch": "%LOCALAPPDATA%\\Programs\\Echo\\Echo.exe",
+      "uninstall": {
+        "path": "{appdir}\\Uninstall Echo.exe",
+        "args": "/S"
+      },
+      "dataPath": null,
+      "requiresAdmin": false,
+      "releases": [
+        {
+          "version": "0.3.0",
+          "channel": "stable",
+          "date": "2026-11-06",
+          "notes": "Erste Version \u00FCber LeVerse.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.3.0/Echo-Setup-0.3.0.exe",
+          "sha256": "cce4194c388bafa90d423080ed9d53978762a51ed5f3b316a51a1535adb7e268",
+          "size": 127754215,
+          "installArgs": "/S"
+        }
+      ],
+      "launchFallbacks": [],
+      "setup": null,
+      "replacesRunning": false,
+      "dirArgs": "/D={dir}",
+      "launchInDir": "Echo.exe",
+      "extensionFolder": null,
+      "postInstall": null,
+      "preUninstall": null,
+      "isPrivate": false,
+      "repo": null,
+      "accessLost": false
     }
   ]
 }
