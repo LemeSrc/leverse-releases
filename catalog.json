@@ -165,6 +165,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.4.0",
+          "channel": "stable",
+          "date": "2026-11-06",
+          "notes": "Kontingent sparen: Chats werden vor dem Kaltwerden kompaktiert, Kontext-Hinweise, \u00DCbergabe in einen frischen Chat, Ladelast-Panel, Modell f\u00FCr Subagenten, einstellbare Benachrichtigungen.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.4.0/Echo-Setup-0.4.0.exe",
+          "sha256": "cf41080e20bd187c5690b7c1fc9b1701c81a05fa79f5b745b1f59417777457fc",
+          "size": 127759422,
+          "installArgs": "/S"
+        },
+        {
           "version": "0.3.0",
           "channel": "stable",
           "date": "2026-11-06",
