@@ -6,7 +6,7 @@ LeVerse ist ein kleiner Launcher für Windows 10 und 11. Er installiert und aktu
 
 **[LeVerse.exe herunterladen](https://github.com/LemeSrc/leverse-releases/releases/latest/download/LeVerse.exe)** (etwa 2 MB)
 
-Einfach starten. LeVerse richtet sich selbst ein und braucht keine Administrator-Rechte.
+Einfach starten. LeVerse richtet sich in C:\Program Files\LeVerse ein und fragt dafür beim ersten Start einmal nach Administrator-Rechten. Danach laufen Updates ohne weitere Abfrage. Lehnst du ab, nutzt LeVerse deinen Benutzerordner.
 
 ## Die Windows-Warnung beim ersten Start
 
