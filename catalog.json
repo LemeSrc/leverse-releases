@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "launcher": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "date": "2026-11-06",
-    "notes": "Installationsordner beim Installieren w\u00E4hlen und in den Einstellungen einen Standardort festlegen.",
-    "url": "https://github.com/LemeSrc/leverse-releases/releases/download/launcher-v0.3.0/LeVerse.exe",
-    "sha256": "b83150f527c7def1fa65f51f8a5a1de8e44f1e0d31c29a1338130cabeaaa97e2",
-    "size": 2330624
+    "notes": "LeVerse wohnt jetzt in C:\\Program Files\\LeVerse, neue Apps standardm\u00E4\u00DFig in dessen Apps-Ordner. Windows fragt daf\u00FCr einmal nach Administrator-Rechten.",
+    "url": "https://github.com/LemeSrc/leverse-releases/releases/download/launcher-v0.4.0/LeVerse.exe",
+    "sha256": "5584d458c9938f3d20bcad77d72c4ae8222b3769437562f085ed3cb911e52859",
+    "size": 2333184
   },
   "apps": [
     {
