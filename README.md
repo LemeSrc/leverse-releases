@@ -24,6 +24,7 @@ Jeder Download wird von LeVerse vor der Installation anhand seiner Prüfsumme ko
 | Flowstate | Razer-Geräte ohne Konto einstellen | Beta, getestet mit Viper Ultimate und BlackShark V2 Pro |
 | SkyMail | E-Mail für mehrere Konten | |
 | SkyMail für Android | Dieselbe Mail-App auf dem Handy | Kommt per QR-Code aufs Handy und meldet neue Versionen selbst |
+| Echo | Arbeitsplatz für Claude Code | Beta, braucht Claude Code und ein eigenes Claude-Konto |
 
 ## LeVerse entfernen
 
