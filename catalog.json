@@ -29,6 +29,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "1.1.0",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Neues Design im Stil von Flowstate: Eisblau und Nachtblau, treibender Hintergrund, Schriften Sora und Inter.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/skymail-v1.1.0/SkyMail-Setup-1.1.0.exe",
+          "sha256": "bf89a79daa45854d35a1e29f54b02c89c555d3fbb7f6eb02d7add1f4a1f93903",
+          "size": 103352854,
+          "installArgs": "/S"
+        },
+        {
           "version": "1.0.1",
           "channel": "stable",
           "date": "2026-11-04",
@@ -164,16 +174,6 @@
       "dataPath": null,
       "requiresAdmin": false,
       "releases": [
-        {
-          "version": "0.4.2",
-          "channel": "stable",
-          "date": "2026-11-08",
-          "notes": "Chats und Arbeiten zusammengelegt mit Suche, nur echte Ordner, Einstellungen \u00FCber dem ausblendbaren Kontingent. Nachrichten-Warteschlange, Dateien und Bilder anh\u00E4ngen, Notizen pro Projekt (NOTIZEN.md).",
-          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.4.2/Echo-Setup-0.4.2.exe",
-          "sha256": "760b5b1be785f718bc954d16662c070d15ac4be3fbaeb8990aff9a0493249064",
-          "size": 127760997,
-          "installArgs": "/S"
-        },
         {
           "version": "0.4.1",
           "channel": "stable",
