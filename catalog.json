@@ -165,6 +165,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.4.2",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Chats und Arbeiten zusammengelegt mit Suche, nur echte Ordner, Einstellungen \u00FCber dem ausblendbaren Kontingent. Nachrichten-Warteschlange, Dateien und Bilder anh\u00E4ngen, Notizen pro Projekt (NOTIZEN.md).",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.4.2/Echo-Setup-0.4.2.exe",
+          "sha256": "760b5b1be785f718bc954d16662c070d15ac4be3fbaeb8990aff9a0493249064",
+          "size": 127760997,
+          "installArgs": "/S"
+        },
+        {
           "version": "0.4.1",
           "channel": "stable",
           "date": "2026-11-06",
