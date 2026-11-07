@@ -81,6 +81,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "1.1.0",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Neues Design im Stil von Flowstate, abgestimmt auf SkyMail f\u00FCr den PC.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/skymail-android-v1.1.0/SkyMail-1.1.0.apk",
+          "sha256": "5a47363f0902b77adf44b6e0efae141ebe52fb697b997ce2684b1de1dde7f5af",
+          "size": 4143359,
+          "installArgs": null
+        },
+        {
           "version": "1.0.2",
           "channel": "stable",
           "date": "2026-11-04",
