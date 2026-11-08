@@ -29,6 +29,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "1.1.1",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Braucht deutlich weniger Arbeitsspeicher, vor allem im Infobereich. Der Postausgang sendet Anh\u00E4nge zuverl\u00E4ssiger, und die Suche auf dem Server ist schneller.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/skymail-v1.1.1/SkyMail-Setup-1.1.1.exe",
+          "sha256": "a6a2441a5587234809488758bd4bdd917447062fab429ae598bb9a9c828f5872",
+          "size": 103353311,
+          "installArgs": "/S"
+        },
+        {
           "version": "1.1.0",
           "channel": "stable",
           "date": "2026-11-08",
