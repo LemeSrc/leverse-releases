@@ -153,6 +153,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.10.0",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Erkennt jetzt auch Maeuse und Tastaturen anderer Hersteller, samt Seitentasten. Neue Tastatur-Seite: Tasten umbelegen, auf Makro, Programm oder Text legen oder ausschalten. Ausgabegeraete als Headset, Kopfhoerer, Lautsprecher oder Monitor einstellbar. Spiele-Suche fuer Programmregeln, Hell/Dunkel-Schalter, Symbole statt Geraetebilder. Nach der Installation sind Effekte, Equalizer und Automatik aus.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/flowstate-v0.10.0/Flowstate-0.10.0.zip",
+          "sha256": "c44f8eedc81dd081a7833fb9a56b92968498a0aa96a9492a3bac540cdd026a03",
+          "size": 54982658,
+          "installArgs": "--install --quiet"
+        },
+        {
           "version": "0.9.1",
           "channel": "stable",
           "date": "2026-11-06",
