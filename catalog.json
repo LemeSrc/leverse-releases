@@ -215,6 +215,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "0.4.3",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Eingabe direkt in Claude, Einreihen nur w\u00E4hrend Claude arbeitet; REA als Vorgabe und beim Einrichten; Echo entfernen unter Einstellungen; schlankerer Kontext je Chat; Kontingent per Klick aktualisieren",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/echo-v0.4.3/Echo-Setup-0.4.3.exe",
+          "sha256": "de7437b55f2a66db2925cb4039fd85add4c7e41435454b6f20859bb7869ba880",
+          "size": 127769791,
+          "installArgs": "/S"
+        },
+        {
           "version": "0.4.1",
           "channel": "stable",
           "date": "2026-11-06",
