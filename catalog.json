@@ -29,6 +29,16 @@
       "requiresAdmin": false,
       "releases": [
         {
+          "version": "1.2.0",
+          "channel": "stable",
+          "date": "2026-11-08",
+          "notes": "Fenster mit runden Ecken und Fensterkn\u00F6pfen im Flowstate-Stil, weiches Scrollen, per Rechtsklick ganze Ordner und gemeinsame Posteing\u00E4nge als gelesen markieren, Favoriten umbenennen und ein Schalter, mit dem die Suche auch Spam und Papierkorb durchsucht.",
+          "url": "https://github.com/LemeSrc/leverse-releases/releases/download/skymail-v1.2.0/SkyMail-Setup-1.2.0.exe",
+          "sha256": "390c1bc29c96342b84a028970ad34001a60905e41eaa0025bee04514c8353ab9",
+          "size": 103355039,
+          "installArgs": "/S"
+        },
+        {
           "version": "1.1.1",
           "channel": "stable",
           "date": "2026-11-08",
